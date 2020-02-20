@@ -1,11 +1,17 @@
+<!-- Muhamad Sabil Fausta -->
+
 <?php 
+	$accept
 	$hapus = 'Hapus data ?';
+	if($accept = 'ya'){
+		echo "Data Berhasil dihapus !";
+	}
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Delete Data</title>
 	</head>
 	<body>
 		<span><?= $hapus ?></span>
